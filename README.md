@@ -8,7 +8,8 @@ Here a simple calculator is created using python which follows the MVC architect
 This file is created to check if the PyQt5 GUI toolkit is installed and working properly in your machine or not.
 ### Code Sample
 
-```import sys
+```
+import sys
 
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QLabel
