@@ -14,13 +14,14 @@ import sys
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QLabel
 from PyQt5.QtWidgets import QWidget
+
 app = QApplication(sys.argv)
 
 window = QWidget()
 window.setWindowTitle('PyQt5 App')
-window.setGeometry(100, 100, 280, 80)
-window.move(600, 15)
-helloMsg = QLabel('This is Test', parent=window)
+window.setGeometry(100, 100, 300, 100)
+window.move(600, 300)
+helloMsg = QLabel('This is a Requirements Test', parent=window)
 helloMsg.move(60, 30)
 
 window.show()
@@ -37,7 +38,7 @@ If while executing the file you get the error of ```ModuleNotFound``` suggests t
 ```bash
 pip install PyQt5
 ```
-Once installed execute the file and a small window will appear with message ```'This is Test'```.
+Once installed execute the file and a small window will appear with message ```'This is a Requirements Test'```.
 
 
 
